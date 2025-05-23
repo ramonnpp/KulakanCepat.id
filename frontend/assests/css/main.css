@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #d70000;
+  --secondary-color: #f5f5f5;
+  --text-color: #333;
+  --font-main: "Roboto", sans-serif;
+}
+
+.promo-carousel-wrapper {
+  position: relative;
+}
+
+.promo-carousel-wrapper .carousel-control-prev,
+.promo-carousel-wrapper .carousel-control-next {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.promo-carousel-wrapper:hover .carousel-control-prev,
+.promo-carousel-wrapper:hover .carousel-control-next {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
